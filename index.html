@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Competencia y Tendencias · Summer Camps</title>
+<style>
+:root{--bg:#f6f5f2;--panel:#fff;--panel2:#f1efea;--ink:#16161a;--suave:#5d5b57;--linea:#e2dfd8;--acento:#111;--oro:#b9873a;--rojo:#c0392b;--verde:#1e8a4c;--ambar:#b7791f;--azul:#2b6cb0}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121214;--panel:#1b1b1f;--panel2:#24242a;--ink:#f1efe9;--suave:#a9a6a0;--linea:#2f2f36;--acento:#f1efe9;--oro:#d4a457;--rojo:#e06655;--verde:#4cc082;--ambar:#e0a43a;--azul:#6ea8e8}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:#111;color:#f4f1ea;padding:28px 16px 22px}
+header .in,main{max-width:1180px;margin:0 auto}
+header h1{margin:0;font-size:clamp(22px,3.4vw,32px);letter-spacing:.01em}
+header h1 span{color:var(--oro)}
+header p{margin:6px 0 0;color:#c9c5bd;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{border:1px solid #3a3a3a;border-radius:99px;padding:3px 11px;font-size:12.5px;color:#d8d4cc}
+nav{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--linea);overflow-x:auto;white-space:nowrap}
+nav .in{max-width:1180px;margin:0 auto;padding:0 10px}
+nav a{display:inline-block;padding:11px 10px;color:var(--suave);text-decoration:none;font-size:13.5px;font-weight:600}
+nav a:hover{color:var(--ink)}
+main{padding:8px 16px 60px}
+section{margin-top:34px}
+h2{font-size:21px;margin:0 0 4px}
+h3{font-size:16px;margin:0 0 6px}
+.lead{color:var(--suave);margin:0 0 14px;font-size:14px}
+.panel{background:var(--panel);border:1px solid var(--linea);border-radius:12px;padding:16px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.kpis{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.kpi{background:var(--panel);border:1px solid var(--linea);border-radius:12px;padding:14px}
+.kpi b{display:block;font-size:26px;line-height:1.1}
+.kpi span{color:var(--suave);font-size:13px}
+ol.hall{margin:0;padding-left:20px}ol.hall li{margin:0 0 10px}
+.tabla{overflow-x:auto;border:1px solid var(--linea);border-radius:12px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--linea);vertical-align:top}
+th{background:var(--panel2);font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--suave);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{text-align:right;white-space:nowrap}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.03em;border-radius:5px;padding:1px 7px;margin:1px 3px 1px 0;white-space:nowrap}
+.t-dir{background:#fde3df;color:#9b2c1f}.t-sec{background:#ebe8e1;color:#55524c}.t-loc{background:#fbecd2;color:#8a5a12}.t-nos{background:#111;color:#f1e3c6}.t-ok{background:#dcf2e5;color:#17663a}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .t-dir{background:#4a201b;color:#ffb3a8}:root:not([data-theme=light]) .t-sec{background:#2d2d33;color:#c9c6bf}:root:not([data-theme=light]) .t-loc{background:#45351a;color:#f3c77d}:root:not([data-theme=light]) .t-ok{background:#173a26;color:#8fe0b0}:root:not([data-theme=light]) .t-nos{background:#f1efe9;color:#111}}
+.mini{font-size:12.5px;color:var(--suave)}
+.ficha h3{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.ficha dl{margin:8px 0 0;display:grid;grid-template-columns:118px 1fr;gap:5px 10px;font-size:13.5px}
+.ficha dt{color:var(--suave)}.ficha dd{margin:0}
+.barras{display:grid;gap:7px}
+.barra{display:grid;grid-template-columns:190px 1fr 92px;gap:10px;align-items:center;font-size:13.5px}
+.barra .pista{background:var(--panel2);border-radius:6px;height:20px;position:relative;overflow:hidden}
+.barra .lista{position:absolute;inset:0 auto 0 0;background:var(--linea)}
+.barra .desc{position:absolute;inset:0 auto 0 0;background:#8d8a84}
+.barra.nos .desc{background:var(--oro)}
+.barra .v{text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:640px){.barra{grid-template-columns:110px 1fr 70px}.ficha dl{grid-template-columns:96px 1fr}}
+.nota{font-size:13px;color:var(--suave);margin-top:10px}
+.alerta{border-left:4px solid var(--rojo)}
+.idea{border-left:4px solid var(--oro)}
+a{color:var(--azul)}
+details summary{cursor:pointer;font-weight:700;padding:4px 0}
+footer{max-width:1180px;margin:30px auto 0;padding:0 16px 40px;color:var(--suave);font-size:12.5px}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <h1>Competencia y Tendencias · <span>Summer Camps 2027</span></h1>
+  <p>Edición 1 · semana del 10 de noviembre de 2026 · versión para revisión</p>
+  <div class="chips"><span class="chip">Competidores: 3 investigaciones web</span><span class="chip">Pauta: Biblioteca de anuncios de Meta</span><span class="chip">Embudo: 6 inscripciones de prueba</span><span class="chip">Redes: 24 cuentas</span></div>
+</div></header>
+<nav><div class="in">
+  <a href="#resumen">Resumen</a><a href="#sedes">Por sede</a><a href="#precios">Precios</a><a href="#directos">Directos</a><a href="#secundarios">Secundarios</a><a href="#pauta">Pauta en Meta</a><a href="#embudo">Embudo</a><a href="#tendencias">Tendencias en redes</a><a href="#metodo">Cómo se actualiza</a>
+</div></nav>
+<main>
+
+<section id="resumen">
+  <h2>Resumen de la semana</h2>
+  <p class="lead">Lo más importante para decidir, en orden de impacto.</p>
+  <div class="kpis">
+    <div class="kpi"><b>11 de 11</b><span>sedes nuestras con al menos un competidor de marca o club local</span></div>
+    <div class="kpi"><b>5</b><span>marcas europeas en Seattle, la sede más disputada</span></div>
+    <div class="kpi"><b>$429</b><span>nuestro early-bird: el precio más bajo entre las marcas europeas</span></div>
+    <div class="kpi"><b>30-nov</b><span>vence el descuento de Real Madrid (NJ y Virginia), un día antes que el nuestro</span></div>
+  </div>
+  <div class="panel" style="margin-top:14px">
+    <ol class="hall">
+      <li><b>Real Madrid es el competidor más directo.</b> Hay dos operadores: Avanza, con unas 50 ciudades, y Akinji, con 41 camps.
+        <ul>
+          <li>Coinciden con nosotros en 6 sedes: Bayamón, Mayagüez, Detroit, Seattle, New Jersey y Virginia (Norfolk).</li>
+          <li>Es la <b>única marca europea en Puerto Rico</b>, y allí sus camps son en junio, antes que los nuestros (julio).</li>
+          <li>Desde el 3-nov pauta un anuncio por ciudad, en PR en español ("Campamento en Bayamón").</li>
+        </ul></li>
+      <li><b>Barça, Bayern, Real Madrid y Man City ya tienen abierta la inscripción del verano 2027</b> y están captando contactos con formularios de "pide el folleto". Nike también vende 2027. Los clubes locales (Atlanta United, Red Bulls, etc.) abren en enero. <b>Noviembre y diciembre son la pelea entre las marcas europeas.</b></li>
+      <li><b>En precio estamos bien.</b>
+        <ul>
+          <li>Nuestro pleno ($549) es igual al precio rebajado de Barça, Bayern y Real Madrid-Akinji.</li>
+          <li>Nuestro early-bird ($429) es el más bajo del grupo europeo.</li>
+          <li>Barça, Bayern y Man City cobran el uniforme aparte. Nosotros lo incluimos, lo que pesa en el precio total.</li>
+        </ul></li>
+      <li><b>Hay choques de fecha concretos:</b>
+        <ul>
+          <li><b>Dallas:</b> Bayern hace su camp en McKinney la misma semana que nosotros (14–18 jun).</li>
+          <li><b>Detroit:</b> Barça y Real Madrid van una semana antes (12–16 jul).</li>
+          <li><b>Chicago:</b> Barça va en junio, antes que nosotros.</li>
+        </ul></li>
+      <li><b>Hay una amenaza a ID Camps Detroit en diciembre.</b> LFC International Academy Michigan (Liverpool) ya abrió camps de vacaciones en Waterford y Warren para el 21–31 de diciembre.</li>
+      <li><b>Inter de Milán es el rival italiano.</b> Su "Inter Academy Camp USA" estuvo en 2026 en Chicago, Seattle y Fort Lee (NJ), y anuncia que crecerá a 12 y 16 ciudades. Su calendario 2027 todavía no está publicado: hay que vigilarlo.</li>
+    </ol>
+  </div>
+  <div class="grid" style="margin-top:14px">
+    <div class="panel idea"><h3>Ideas a considerar</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li><b>Reforzar el mensaje del early-bird antes del 30-nov</b> en NJ y Virginia, donde vence el descuento de Real Madrid.</li>
+        <li><b>Puerto Rico está disputado.</b> Real Madrid empezó a pautar 7 días antes que la agencia y su camp va antes en el calendario.</li>
+        <li><b>Destacar el "precio total"</b> (uniforme incluido) frente a las marcas que lo cobran aparte. En ID Camps se acordó que la camiseta incluida no es gancho; aquí la diferencia es el precio total, así que hay que decidirlo con Alessandro.</li>
+        <li><b>Seattle es la sede más competida:</b> 5 marcas europeas y Seattle Reign a $535. Conviene vigilar su costo por inscrito en la pauta de la agencia.</li>
+      </ul></div>
+    <div class="panel alerta"><h3>Por confirmar</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li>Si Barça tiene camp 2027 en Bayamón: hay una ficha suya, pero no aparece en su lista 2027.</li>
+        <li>Sedes y precios 2027 de Inter Academy Camp USA: su web da error.</li>
+        <li>Precios 2027 de FC Dallas, Atlanta United y Chicago Fire (aún no publicados).</li>
+        <li>Cuentas de Instagram y TikTok marcadas con ⚠️ en Tendencias.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section id="sedes">
+  <h2>Competencia por sede</h2>
+  <p class="lead">Nuestra fecha frente a lo que hay en cada ciudad para el verano 2027. <span class="tag t-dir">Directo</span> marca europea de club · <span class="tag t-loc">Local fuerte</span> club o marca dominante en la ciudad · <span class="tag t-sec">Secundario</span></p>
+  <div class="tabla"><table>
+    <thead><tr><th>Sede</th><th>Nuestra fecha</th><th>Marcas europeas (directos)</th><th>Nacionales</th><th>Locales</th></tr></thead>
+    <tbody>
+      <tr><td><b>Seattle</b></td><td>2–6 ago</td><td><span class="tag t-dir">Barça</span> Starfire 12–16 jul · <span class="tag t-dir">Real Madrid</span> Starfire 19–23 jul · <span class="tag t-dir">Bayern</span> 19–23 jul · <span class="tag t-dir">Arsenal</span> 5–9 jul · <span class="tag t-sec">Man City</span> Starfire 21–25 jun · Inter (2026)</td><td>Nike · Challenger</td><td><span class="tag t-loc">Seattle Reign</span> $535 por 4 días (niñas) · Sounders / Arena (medio día)</td></tr>
+      <tr><td><b>Detroit</b></td><td>19–23 jul</td><td><span class="tag t-dir">Barça</span> Brighton 12–16 jul · <span class="tag t-dir">Real Madrid</span> Founders 12–16 jul · <span class="tag t-sec">LFC IA Michigan</span> ~15 sedes (+ camps 21–31 dic)</td><td>—</td><td><span class="tag t-sec">Detroit City FC</span> $150–175, medio día</td></tr>
+      <tr><td><b>New Jersey</b></td><td>19–23 jul</td><td><span class="tag t-dir">Real Madrid (Akinji)</span> 9 sedes · <span class="tag t-dir">Arsenal</span> 12–16 jul · Inter y Chelsea (2026)</td><td><span class="tag t-dir">Nike</span> 24 sedes, $399 · Challenger</td><td><span class="tag t-loc">NY Red Bulls</span> 35+ sedes, ~$430</td></tr>
+      <tr><td><b>Chicago</b></td><td>12–16 jul</td><td><span class="tag t-dir">Barça</span> Schaumburg 14–18 jun · <span class="tag t-dir">Arsenal</span> 5–9 jul · Inter y Chelsea (2026)</td><td><span class="tag t-dir">Nike</span> 14–28 jun</td><td><span class="tag t-loc">Chicago Fire</span> $310–335 + entrada a partido</td></tr>
+      <tr><td><b>Dallas</b></td><td>14–18 jun</td><td><span class="tag t-dir">Bayern</span> McKinney <b>14–18 jun (misma semana)</b> · <span class="tag t-dir">Arsenal</span> 19–23 jul</td><td><span class="tag t-dir">Nike</span> Southlake</td><td><span class="tag t-loc">FC Dallas</span> · Dallas Trinity · club Man City North Texas · academias Villarreal</td></tr>
+      <tr><td><b>Atlanta</b></td><td>7–11 jun</td><td><span class="tag t-dir">Barça</span> Acworth 12–16 jul · <span class="tag t-dir">Bayern</span> Marietta 28 jun–2 jul</td><td>—</td><td><span class="tag t-loc">Atlanta United</span> balón + camiseta + visitas de jugadores</td></tr>
+      <tr><td><b>Bayamón</b></td><td>19–23 jul</td><td><span class="tag t-dir">Real Madrid</span> 14–18 jun · Barça (por confirmar)</td><td>—</td><td><span class="tag t-sec">Puerto Rico FC</span> camp sin precio</td></tr>
+      <tr><td><b>Mayagüez</b></td><td>12–16 jul</td><td><span class="tag t-dir">Real Madrid</span> 7–11 jun (+ Ponce)</td><td>—</td><td><span class="tag t-sec">Campamento Tarzán</span> UPRM, multideporte</td></tr>
+      <tr><td><b>Virginia Beach</b></td><td>26–30 jul</td><td><span class="tag t-dir">Real Madrid (Akinji)</span> Norfolk 12–16 jul</td><td>Nike (solo medio día)</td><td><span class="tag t-sec">Beach FC · Beach Saint-Germain</span> $195, medio día</td></tr>
+      <tr><td><b>Alabama</b></td><td>31 may–4 jun</td><td><span class="tag t-dir">Barça</span> Hoover 14–18 jun</td><td>—</td><td><span class="tag t-sec">Huntsville City FC · NASC</span> camps cortos</td></tr>
+      <tr><td><b>Midland</b></td><td>21–25 jun</td><td><span class="tag t-sec">Villarreal</span> con The Spot WTX (1–5 jun 2026)</td><td>—</td><td><span class="tag t-sec">West Texas FC</span> gratis o de bajo costo</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">Las fechas de la competencia se tomaron de sus webs el 10-11-2026. "(2026)" = estuvo el verano pasado y todavía no publicó 2027.</p>
+</section>
+
+<section id="precios">
+  <h2>Precios de 5 días (camp de día)</h2>
+  <p class="lead">Barra gris clara = precio de lista · barra oscura = precio con el descuento vigente. Al lado, hasta cuándo dura.</p>
+  <div class="panel barras" id="barras"></div>
+  <p class="nota">* Barça, Bayern y Man City cobran el uniforme aparte. Nike solo da camiseta. Challenger incluye balón y camiseta. Seattle Reign = 4 días. Red Bulls = promedio de sus sedes.</p>
+</section>
+
+<section id="directos">
+  <h2>Competidores directos</h2>
+  <p class="lead">Mismo producto (camp de verano con marca o metodología de club) y presencia en varias de nuestras sedes.</p>
+  <div class="grid">
+    <div class="panel ficha"><h3>Real Madrid Foundation Clinics <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Operador</dt><dd>Avanza Sports · <a href="https://rmfclinicsusa.com/" target="_blank">rmfclinicsusa.com</a></dd>
+      <dt>Coincide</dt><dd>Bayamón, Mayagüez (+ Ponce), Detroit, Seattle</dd>
+      <dt>Precio</dt><dd>$599 → $499 para los primeros 20 inscritos (después $524 / $574)</dd>
+      <dt>Promesa</dt><dd>"conducted by coaches of the Real Madrid Foundation" · viaje "Madrid Experience" para seleccionados</dd>
+      <dt>Tamaño</dt><dd>~50 ciudades · "+6.000 jugadores por temporada"</dd>
+      <dt>Pauta</dt><dd><b>57 anuncios activos</b>, uno por ciudad, desde el 3-nov</dd>
+      <dt>Redes</dt><dd>IG @rmfclinicsusa · 16,1 K</dd>
+      <dt>Embudo</dt><dd><span class="tag t-ok">Inscritos</span> folleto descargado</dd></dl></div>
+    <div class="panel ficha"><h3>RMF Camps USA (Real Madrid) <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Operador</dt><dd>Akinji Soccer, Jersey City · <a href="https://rmfcampsusa.com" target="_blank">rmfcampsusa.com</a></dd>
+      <dt>Coincide</dt><dd>New Jersey (9 sedes), Norfolk (área de Virginia Beach)</dd>
+      <dt>Precio</dt><dd>$699 → <b>$549 hasta el 30-nov</b></dd>
+      <dt>Promesa</dt><dd>"The Best Soccer Experience in the USA" · "Live the experience in Madrid"</dd>
+      <dt>Tamaño</dt><dd>41 camps · ~3.000 jugadores por verano</dd>
+      <dt>Redes</dt><dd>IG @rmfcampsusa · 14,3 K</dd>
+      <dt>Embudo</dt><dd><span class="tag t-ok">Inscritos</span> consulta enviada (fechas y precios NJ / Norfolk)</dd></dl></div>
+    <div class="panel ficha"><h3>Barça Academy US Camps <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Operador</dt><dd>ISL Agency, Miami · <a href="https://fcbarcelona.us/camps" target="_blank">fcbarcelona.us/camps</a></dd>
+      <dt>Coincide</dt><dd>Atlanta, Chicago, Detroit, Alabama, Seattle (Bayamón por confirmar)</dd>
+      <dt>Precio</dt><dd>$699 → $549 ($599 en ciudades premium) · $50 por hermano · 3 cuotas · Premium +$99 · uniforme Nike aparte</dd>
+      <dt>Promesa</dt><dd>"Train the Barça way" · "Become a Barça player for a week!" · coaches con licencia UEFA · selección para entrenar en Barcelona</dd>
+      <dt>Tamaño</dt><dd>42 ciudades · +7.000 niños (2024)</dd>
+      <dt>Pauta</dt><dd><b>32 anuncios activos</b> desde el 29-oct: "FC Barcelona Camps 2027: Registration Open". FC Barcelona además usa urgencia: "Winter early bird finish in 3 days".</dd>
+      <dt>Redes</dt><dd>IG @barcaacademyus · 59,5 K (la mayor del grupo)</dd>
+      <dt>Embudo</dt><dd><span class="tag t-ok">Inscritos</span> "Get all the camp details"</dd></dl></div>
+    <div class="panel ficha"><h3>FC Bayern Soccer Camps <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Operador</dt><dd>FC Bayern Munich Academy LLC · <a href="https://fcbayernyouth.com/camps/" target="_blank">fcbayernyouth.com</a></dd>
+      <dt>Coincide</dt><dd>Atlanta, Dallas (<b>misma semana</b>), Seattle</dd>
+      <dt>Precio</dt><dd>$649 → $549 · uniforme Adidas aparte · paquete "Mia San Mia" (informe y test)</dd>
+      <dt>Promesa</dt><dd>"Lead coaches travel directly from the club's Munich academy" · invitación a Múnich</dd>
+      <dt>Tamaño</dt><dd>18 sedes</dd>
+      <dt>Redes</dt><dd>IG @fcbayernpathway · 211 K (internacional)</dd>
+      <dt>Embudo</dt><dd><span class="tag t-ok">Inscritos</span> folleto pedido</dd></dl></div>
+    <div class="panel ficha"><h3>Arsenal Soccer Camps USA <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Operador</dt><dd>Soccer Camps Pro · <a href="https://arsenalsoccercampsus.com/camps/" target="_blank">arsenalsoccercampsus.com</a></dd>
+      <dt>Coincide</dt><dd>Chicago, Dallas, New Jersey, Seattle</dd>
+      <dt>Precio</dt><dd>$599 (sin descuentos publicados)</dd>
+      <dt>Promesa</dt><dd>"Play the Arsenal Way" · invitación a Londres</dd>
+      <dt>Pauta</dt><dd><b>21 anuncios activos</b> con el mensaje "Learn from England's #1 Club"; sube anuncios nuevos casi a diario</dd>
+      <dt>Redes</dt><dd>IG @arsenalsoccercamps · 6,8 K</dd>
+      <dt>Embudo</dt><dd><span class="tag t-sec">Sin formulario</span></dd></dl></div>
+    <div class="panel ficha"><h3>Nike Soccer Camps (US Sports Camps) <span class="tag t-dir">Directo</span></h3>
+      <dl><dt>Web</dt><dd><a href="https://www.ussportscamps.com/soccer/nike" target="_blank">ussportscamps.com</a></dd>
+      <dt>Coincide</dt><dd>NJ (24 sedes), Chicago, Dallas, Virginia Beach (medio día), Seattle</dd>
+      <dt>Precio</dt><dd><b>$399</b> completo / $279 medio día (Tinton Falls 2027) · descuento de grupo $25–40 por niño</dd>
+      <dt>Promesa</dt><dd>"Trusted camps since 1975" · 240.000 campistas en 2025</dd>
+      <dt>Pauta</dt><dd>25 anuncios activos (multideporte); "Keep their touch sharp over the holidays"</dd>
+      <dt>Redes</dt><dd>IG @ussportscamps · 23,9 K</dd>
+      <dt>Embudo</dt><dd><span class="tag t-ok">Inscritos</span> newsletter</dd></dl></div>
+    <div class="panel ficha"><h3>Challenger Sports <span class="tag t-dir">Directo (precio)</span></h3>
+      <dl><dt>Web</dt><dd><a href="https://www.challengersports.com" target="_blank">challengersports.com</a></dd>
+      <dt>Coincide</dt><dd>Seattle, NJ (Gloucester Twp); el resto sin confirmar</dd>
+      <dt>Precio</dt><dd><b>$269</b> completo / $199 medio día · early-bird hasta −$40 · <b>10 % extra en diciembre</b></dd>
+      <dt>Incluye</dt><dd>Balón, camiseta de juego y evaluación</dd>
+      <dt>Pauta</dt><dd>Sin anuncios activos encontrados</dd>
+      <dt>Redes</dt><dd>IG @challengerhq</dd>
+      <dt>Embudo</dt><dd><span class="tag t-sec">Sin formulario</span></dd></dl></div>
+  </div>
+</section>
+
+<section id="secundarios">
+  <h2>Secundarios y locales fuertes</h2>
+  <div class="tabla"><table>
+    <thead><tr><th>Competidor</th><th>Tipo</th><th>Dónde</th><th>Por qué vigilarlo</th></tr></thead>
+    <tbody>
+      <tr><td><b>Inter Academy Camp USA</b></td><td><span class="tag t-sec">Secundario · vigilar</span></td><td>Chicago, Seattle, Fort Lee NJ (2026)</td><td>Rival italiano directo: 3 coaches del club por sede. Anuncia crecer a 12 y 16 ciudades. 2027 sin publicar.</td></tr>
+      <tr><td><b>Manchester City U.S. Camps</b></td><td><span class="tag t-sec">Secundario</span></td><td>Seattle</td><td>$699 → $599, coaches "from Manchester". <span class="tag t-ok">Inscritos</span></td></tr>
+      <tr><td><b>LFC International Academy Michigan</b></td><td><span class="tag t-sec">Secundario</span></td><td>Área de Detroit</td><td>~15 sedes en verano y <b>camps del 21–31 de diciembre</b>, que compiten con ID Camps Detroit.</td></tr>
+      <tr><td><b>Villarreal CF</b></td><td><span class="tag t-sec">Secundario</span></td><td>Midland</td><td>La única marca europea en Midland (jun-2026).</td></tr>
+      <tr><td><b>Chelsea FC Soccer Schools</b></td><td><span class="tag t-sec">Secundario</span></td><td>Schaumburg, Princeton</td><td>Sin datos 2027.</td></tr>
+      <tr><td><b>NY Red Bulls Camps</b></td><td><span class="tag t-loc">Local fuerte</span></td><td>NJ (35+ sedes)</td><td>~$430: balón, 2 camisetas, entrada y visitas de jugadores.</td></tr>
+      <tr><td><b>Chicago Fire FC Camps</b></td><td><span class="tag t-loc">Local fuerte</span></td><td>Chicago</td><td>$310–335 por 9–16 h + entrada a un partido.</td></tr>
+      <tr><td><b>Atlanta United Kickstart</b></td><td><span class="tag t-loc">Local fuerte</span></td><td>Atlanta</td><td>Balón, camiseta y jugadores del primer equipo. Abre inscripción en enero.</td></tr>
+      <tr><td><b>FC Dallas Camps</b></td><td><span class="tag t-loc">Local fuerte</span></td><td>Dallas</td><td>Currículo "FCD Way", ratio 1:12. Precio no publicado.</td></tr>
+      <tr><td><b>Seattle Reign FC</b></td><td><span class="tag t-loc">Local fuerte</span></td><td>Seattle</td><td>$535 por 4 días (niñas): la referencia de precio alto.</td></tr>
+      <tr><td><b>PSG Academy USA</b></td><td><span class="tag t-sec">Secundario</span></td><td>LA, Orlando, Miami, Oak Hill VA</td><td>No coincide con nuestras sedes, pero es el que más pauta: <b>78 anuncios activos</b>.</td></tr>
+      <tr><td>Milan, Valencia, Atlético, Ajax, Dortmund, Benfica</td><td><span class="tag t-sec">Sin actividad</span></td><td>—</td><td>Sin camps confirmados en EE. UU. para 2027.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="pauta">
+  <h2>Pauta en Meta esta semana</h2>
+  <p class="lead">Anuncios activos en EE. UU. según la Biblioteca de anuncios de Meta (10-11-2026). La semana que viene se compara contra este número.</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Página</th><th class="n">Anuncios activos</th><th>Desde</th><th>Mensaje principal</th></tr></thead>
+    <tbody>
+      <tr><td>PSG Academy USA Camps</td><td class="n">78</td><td>22-oct</td><td>"PSG Summer Camp" · "PSG Academy"</td></tr>
+      <tr><td>Real Madrid Foundation Clinics in USA</td><td class="n">57</td><td>3-nov</td><td>"&lt;Ciudad&gt; Soccer Camp 2027" · "Campamento en Bayamón / Mayagüez"</td></tr>
+      <tr><td>Barça Academy United States</td><td class="n">32</td><td>29-oct</td><td>"FC Barcelona Camps 2027: Registration Open" · "Train Like Barça for a Week"</td></tr>
+      <tr><td>US Sports Camps (Nike)</td><td class="n">25</td><td>2-nov</td><td>"Nike Soccer Camps" · "Keep Their Touch Sharp Over the Holidays"</td></tr>
+      <tr><td>Arsenal USA Camps</td><td class="n">21</td><td>10-nov</td><td>"Learn from England's #1 Club"</td></tr>
+      <tr><td>Atlético de Madrid Camps</td><td class="n">3</td><td>10-nov</td><td>"Soccer Camp in Phoenix"</td></tr>
+      <tr><td><b>Juventus Camps USA (agencia italiana)</b></td><td class="n">44</td><td>10-nov</td><td>"Juventus Summer Camp &lt;Ciudad&gt; · fechas 2027"</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">Sin anuncios activos encontrados: Challenger / British Soccer Camps, AC Milan, Inter, Man City camps. La biblioteca de Meta no muestra gasto ni resultados de anuncios comerciales: solo cuántos hay, desde cuándo y qué dicen.</p>
+</section>
+
+<section id="embudo">
+  <h2>Embudo de la competencia (inscripciones de prueba)</h2>
+  <p class="lead">Nos inscribimos con un contacto de prueba para ver qué correos, SMS y retargeting mandan después. Cada semana se registra lo que llegó.</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Competidor</th><th>Formulario</th><th>Estado</th><th>Correos recibidos</th><th>SMS / WhatsApp</th></tr></thead>
+    <tbody>
+      <tr><td>Barça Academy US</td><td>"Get all the camp details"</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td><b>~5 min después:</b> "Information Dossier" con enlace al PDF (25 págs.). Llegó 2 veces.</td><td>—</td></tr>
+      <tr><td>FC Bayern Camps</td><td>Folleto ("Request here")</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td><b>Al instante:</b> "Information Brochure" con PDF (15 págs.)</td><td>—</td></tr>
+      <tr><td>Manchester City U.S. Camps</td><td>"Send dossier"</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td><b>Al instante:</b> "Information Brochure" con PDF (20 págs.)</td><td>—</td></tr>
+      <tr><td>Real Madrid Clinics (Avanza)</td><td>Descargar folleto</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td>Ningún correo todavía (el folleto se descarga en la web)</td><td>—</td></tr>
+      <tr><td>RMF Camps (Akinji)</td><td>Consulta: fechas y precios NJ / Norfolk</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td>Sin respuesta todavía (consulta manual)</td><td>—</td></tr>
+      <tr><td>Nike Soccer Camps</td><td>Newsletter</td><td><span class="tag t-ok">Enviado 10-nov</span></td><td>"Welcome to US Sports Camps" (bienvenida)</td><td>—</td></tr>
+      <tr><td>Arsenal · Challenger · Inter</td><td colspan="4">Sin formulario de información disponible (Inter: web con error)</td></tr>
+    </tbody>
+  </table></div>
+  <div class="panel idea" style="margin-top:14px"><h3>Qué mandan después (primeros correos, 10-nov)</h3>
+    <ul style="margin:0;padding-left:18px">
+      <li><b>Barça, Bayern y Man City responden en minutos</b> con un correo corto ("Hi, thank you for your interest… download the dossier at this link") y un <b>PDF de 15 a 25 páginas</b>. Los tres usan el mismo formato, lo que confirma que <b>es el mismo operador</b>. El folleto de Bayern nombra a "Futbol First" como organizador de los viajes.</li>
+      <li><b>El folleto sigue el mismo orden</b> en los tres: qué es, por qué elegirlo, qué incluye, el <b>paquete Premium</b> (Barça +$99 con gorra, botella, bolso, video de consejos, plan nutricional y sorteo de camiseta y de un <b>"Golden Ticket": reembolso total del camp</b>; Bayern "Mia San Mia" con informe personal y test físico; Man City "Sky Blue" con informe, foto y sorteos), sedes con fecha y precio, viaje a Europa para seleccionados y preguntas frecuentes.</li>
+      <li><b>Uniforme obligatorio y aparte</b> en los tres: Nike (Barça), Adidas (Bayern), a la venta en enero de 2027.</li>
+      <li><b>Condiciones:</b> sin devolución, pero con crédito hasta jul-2028 (Bayern), plan de pagos, descuento de hermanos o equipo por correo, almuerzo y llegada temprana con costo extra.</li>
+      <li><b>Datos nuevos del folleto de Bayern:</b> Dallas 14–18 jun (confirmado, misma semana que nosotros), Atlanta 28 jun–2 jul, Seattle 19–23 jul. Todas a $649 → $549 y de 8 a 2.</li>
+      <li><b>Idea para nosotros:</b> no tenemos un "pide el folleto" con PDF automático. Es un buen imán de contactos para quien todavía no está listo para pagar, y la familia queda en la lista de correos y retargeting.</li>
+    </ul>
+    <p class="mini" style="margin:8px 0 0">La próxima lectura (17-nov) mostrará si mandan una secuencia de seguimiento.</p></div>
+  <p class="nota">Barça se envió 3 veces (las dos primeras no mostraron confirmación) y una de ellas pudo quedar con la bandera de EE. UU. por defecto. Si aparecen mensajes duplicados o a otro número, es por eso.</p>
+</section>
+
+<section id="tendencias">
+  <h2>Tendencias en redes del fútbol juvenil</h2>
+  <p class="lead">Lo que dicen los datos de 2025–2026 y qué cuentas seguir cada semana.</p>
+  <div class="grid">
+    <div class="panel"><h3>Lo que está respaldado por datos</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li><b>Instagram premia tres cosas:</b> tiempo de visualización, "me gusta" por persona alcanzada y <b>envíos por mensaje directo</b>. Los envíos son lo que más ayuda a llegar a gente nueva: un ejercicio útil o un momento que un papá le reenvía a otro (Mosseri, ene-2025).</li>
+        <li><b>Formatos:</b> el carrusel (~0,5 %) y el reel (~0,5 %) superan a la imagen fija (~0,35 %, en caída). Los reels dejan más comentarios. En cuentas deportivas, lo que mejor funciona es el video (Socialinsider, Rival IQ).</li>
+        <li><b>Lo real gana a lo pulido</b> (TikTok Next 2026). Coincide con lo que pidió Alessandro: menos "cara de IA".</li>
+        <li><b>Ganchos:</b> el mensaje en los primeros 3 segundos; los anuncios de TikTok rinden mejor entre 21 y 34 s.</li>
+        <li><b>Los padres eligen campamento</b> por recomendación de conocidos (más de la mitad) y por redes e internet (54 %). El costo es el primer factor.</li>
+        <li><b>Reels de prueba:</b> se muestran solo a quien no sigue la cuenta. Sirven para probar ganchos antes de pautarlos.</li>
+      </ul></div>
+    <div class="panel"><h3>Referencias de interacción</h3>
+      <ul style="margin:0;padding-left:18px">
+        <li><b>Instagram, equipos deportivos:</b> ~1,3 % por seguidor. La mediana de todos los sectores es 0,30–0,36 %.</li>
+        <li><b>TikTok:</b> 4–9 % por visualización.</li>
+        <li>Cada fuente mide distinto: sirve como rango, no como cifra exacta.</li>
+      </ul>
+      <h3 style="margin-top:14px">Formatos que se repiten en las cuentas de referencia</h3>
+      <p class="mini" style="margin:0">Un día en el camp · punto de vista en primera persona · ejercicio explicado · progreso del jugador · jugador de la semana · detrás de cámaras · testimonio de padres · video grabado por las familias · colaboraciones (p. ej. IMG con NCSA).</p></div>
+  </div>
+  <h3 style="margin-top:18px">Cuentas a vigilar</h3>
+  <div class="tabla"><table>
+    <thead><tr><th>Grupo</th><th>Cuenta</th><th class="n">Seguidores</th><th>Por qué</th></tr></thead>
+    <tbody>
+      <tr><td>Camps (competencia)</td><td>@barcaacademyus</td><td class="n">59,5 K</td><td>La mayor cuenta de camps en EE. UU.</td></tr>
+      <tr><td>Camps (competencia)</td><td>@psgacademyusa</td><td class="n">16,8 K</td><td>Publicó video de camps el 9-nov.</td></tr>
+      <tr><td>Camps (competencia)</td><td>@rmfclinicsusa · @rmfcampsusa</td><td class="n">16,1 K · 14,3 K</td><td>Real Madrid en EE. UU.</td></tr>
+      <tr><td>Camps (competencia)</td><td>@ussportscamps · @arsenalsoccercamps · @challengerhq</td><td class="n">23,9 K · 6,8 K · —</td><td>Nike, Arsenal y Challenger.</td></tr>
+      <tr><td>Academias europeas</td><td>@barcaacademy · @mancityacademy · @cityfootballschools · @psgacademy</td><td class="n">2,3 M · 252 K · 85 K · 121 K</td><td>Referencias de formato y frecuencia.</td></tr>
+      <tr><td>Fútbol juvenil EE. UU.</td><td>@mlsnext · @theecnl · @lagalaxyacademy · @imgacademy</td><td class="n">461 K · 120 K · 40 K · 286 K</td><td>El tono del fútbol de élite juvenil; LA Galaxy publica a diario.</td></tr>
+      <tr><td>Creadores y medios</td><td>@433 · @brfootball · @jonerfootball · @topdrawersoccer · @soccerwire</td><td class="n">79,7 M · 15,9 M · 332 K · 113 K · 44 K</td><td>Formatos virales, ejercicios, lo que leen los padres.</td></tr>
+      <tr><td>Local</td><td>@intermiamicf</td><td class="n">19,5 M</td><td>Solo su contenido de academia y camps.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota">⚠️ Por confirmar a mano: Fundación Real Madrid, cuenta global de Juventus Academy, Milan Academy, Philadelphia Union Academy, 7MLC, F2, RAIN Soccer y todas las de TikTok. Seguidores al 10-11-2026.</p>
+</section>
+
+<section id="metodo">
+  <h2>Cómo se actualiza</h2>
+  <p class="lead">Propuesta: cada lunes, junto con el reporte del director, en unos 20–30 minutos. Esta es la edición 1, la línea base.</p>
+  <div class="tabla"><table>
+    <thead><tr><th>Qué</th><th>Fuente</th><th>Hoy</th><th>Con servidor</th></tr></thead>
+    <tbody>
+      <tr><td>Anuncios activos de cada competidor</td><td>Biblioteca de anuncios de Meta (conexión oficial)</td><td>Semanal, en la sesión</td><td>Igual. La API pública de la biblioteca solo da anuncios políticos fuera de Europa, así que se sigue leyendo por la conexión de Meta.</td></tr>
+      <tr><td>Precios, fechas y sedes</td><td>Webs de cada competidor</td><td>Semanal, en la sesión</td><td>Lectura automática cada noche y aviso si cambia un precio o aparece un descuento.</td></tr>
+      <tr><td>Correos de la competencia</td><td>Correo de prueba (ya conectado)</td><td>Semanal: qué llegó, asunto, oferta</td><td>Automático.</td></tr>
+      <tr><td>SMS / WhatsApp</td><td>WhatsApp de prueba</td><td>Se reenvía o captura lo que llegue</td><td>Manual.</td></tr>
+      <tr><td>Redes (Instagram)</td><td>API oficial de Instagram (business_discovery)</td><td>Por definir: necesita una cuenta Business nuestra</td><td>Automático: publicaciones, likes, comentarios y vistas de reels.</td></tr>
+      <tr><td>TikTok, historias, ganchos</td><td>Revisión en la app + TikTok Creative Center</td><td>Manual</td><td>Manual (TikTok no da acceso oficial para uso comercial).</td></tr>
+      <tr><td>Lectura e ideas</td><td>—</td><td>Nosotros</td><td>Nosotros: es lo que tiene valor y no conviene dejarlo a un agente sin revisión.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="nota"><b>Decisión pendiente:</b> qué cuenta de Instagram usar para leer las demás cuentas. La regla actual es no hacer scraping con las cuentas oficiales. Esto sería por la API oficial, pero la consulta sale de la cuenta que la hace.</p>
+</section>
+</main>
+<footer>Fuentes: webs de cada competidor (10-11-2026), Biblioteca de anuncios de Meta, Socialinsider, Rival IQ / Quid 2026, TikTok Next 2026, Active Network, American Camp Association, documentación de Meta for Developers.</footer>
+<script>
+const P = [
+  ['Juventus (nosotros)', 549, 429, 'hasta 1-dic', 1],
+  ['Real Madrid · Avanza', 599, 499, 'primeros 20'],
+  ['Real Madrid · Akinji', 699, 549, 'hasta 30-nov'],
+  ['Barça *', 699, 549, 'sin fecha'],
+  ['Bayern *', 649, 549, 'sin fecha'],
+  ['Arsenal', 599, 599, '—'],
+  ['Man City *', 699, 599, '—'],
+  ['Seattle Reign (4 días)', 535, 535, 'early −$50 hasta 1-mar'],
+  ['NY Red Bulls (prom.)', 430, 430, 'early sin cifra'],
+  ['Nike (Tinton Falls)', 399, 399, 'sin early-bird'],
+  ['Chicago Fire', 310, 310, '$310–335 según la sede'],
+  ['Challenger', 269, 269, '−$40 · 10 % en dic'],
+];
+const max = 720, box = document.getElementById('barras');
+P.forEach(([n, l, d, h, nos]) => {
+  const r = document.createElement('div'); r.className = 'barra' + (nos ? ' nos' : '');
+  r.innerHTML = `<div><b>${n}</b><div class="mini">${h}</div></div><div class="pista"><div class="lista" style="width:${l / max * 100}%"></div><div class="desc" style="width:${d / max * 100}%"></div></div><div class="v">${d < l ? '<s class="mini">$' + l + '</s> ' : ''}<b>$${d}</b></div>`;
+  box.appendChild(r);
+});
+</script>
+</body>
+</html>
