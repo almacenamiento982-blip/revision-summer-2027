@@ -1,0 +1,24 @@
+{
+ "etiqueta": {"es": "Revisión del 13 nov", "en": "Nov 13 review"},
+ "actualizado": "2026-11-13T17:45:12Z",
+ "act_txt": {"es": "jue 13 nov, 12:45 p. m.", "en": "Thu, Nov 13, 12:45 PM"},
+ "prox_txt": {"es": "lun 16 nov", "en": "Mon, Nov 16"},
+ "prox_nota": {"es": "se actualiza a mano", "en": "updated manually"},
+ "resumen": {"es": "Las 12 sedes de los Summer Camps 2027 tienen competencia de al menos una marca europea o un club local. Inter llegó con el precio más bajo y San Francisco es la sede más disputada.",
+             "en": "All 12 Summer Camps 2027 locations face at least one European brand or local club. Inter arrived with the lowest price and San Francisco is the most contested location."},
+ "tendencias": [
+  {"es": "Inter, el precio más bajo ($399)", "en": "Inter, the lowest price ($399)"},
+  {"es": "San Francisco, la sede más competida", "en": "San Francisco, the most contested location"},
+  {"es": "Real Madrid, el más presente", "en": "Real Madrid, the most present"},
+  {"es": "La competencia vende antes y con más frecuencia", "en": "Competitors sell earlier and more often"}
+ ],
+ "bloques": [
+  {"titulo": {"es": "Para tener en cuenta", "en": "Worth keeping in mind"},
+   "items": [
+    {"es": "En New Jersey, Seattle, Chicago y San Francisco dejamos de ser la opción europea más barata: conviene ver si Inter extiende los $399 después del 15-nov.", "en": "In New Jersey, Seattle, Chicago and San Francisco we are no longer the cheapest European option: it is worth checking whether Inter extends the $399 after Nov 15."},
+    {"es": "Black Friday ya empezó en la competencia (Atlético con 106 anuncios, Barça con un correo de \"$40 off\").", "en": "Black Friday has already started among competitors (Atlético with 106 ads, Barça with a \"$40 off\" email)."},
+    {"es": "Nuestro $429 sigue por debajo de Barça, Bayern, Real Madrid y Man City, que cobran el uniforme aparte.", "en": "Our $429 is still below Barça, Bayern, Real Madrid and Man City, which charge for the uniform separately."}
+   ]}
+ ],
+ "url": "https://almacenamiento982-blip.github.io/revision-summer-2027/"
+}
