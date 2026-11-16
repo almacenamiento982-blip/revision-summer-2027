@@ -1,24 +1,64 @@
 {
- "etiqueta": {"es": "Revisión del 13 nov", "en": "Nov 13 review"},
- "actualizado": "2026-11-13T17:45:12Z",
- "act_txt": {"es": "jue 13 nov, 12:45 p. m.", "en": "Thu, Nov 13, 12:45 PM"},
- "prox_txt": {"es": "lun 16 nov", "en": "Mon, Nov 16"},
- "prox_nota": {"es": "se actualiza a mano", "en": "updated manually"},
- "resumen": {"es": "Las 12 sedes de los Summer Camps 2027 tienen competencia de al menos una marca europea o un club local. Inter llegó con el precio más bajo y San Francisco es la sede más disputada.",
-             "en": "All 12 Summer Camps 2027 locations face at least one European brand or local club. Inter arrived with the lowest price and San Francisco is the most contested location."},
+ "etiqueta": {
+  "es": "Edición del 16 nov",
+  "en": "Nov 16 edition"
+ },
+ "actualizado": "2026-11-16T17:01:50Z",
+ "act_txt": {
+  "es": "lun 16 nov, 12:01 p. m.",
+  "en": "Mon, Nov 16, 12:01 PM"
+ },
+ "prox_txt": {
+  "es": "lun 23 nov",
+  "en": "Mon, Nov 23"
+ },
+ "prox_nota": {
+  "es": "se actualiza a mano",
+  "en": "updated manually"
+ },
+ "resumen": {
+  "es": "Inter terminó su precio de $399 y ahora cobra $449: nuestro $429 vuelve a ser el más bajo entre las marcas europeas hasta el 1-dic. Nuestra agencia duplicó sus anuncios (87) con San Francisco y New Jersey.",
+  "en": "Inter ended its $399 price and now charges $449: our $429 is again the lowest among European brands until Dec 1. Our agency doubled its ads (87) with San Francisco and New Jersey."
+ },
  "tendencias": [
-  {"es": "Inter, el precio más bajo ($399)", "en": "Inter, the lowest price ($399)"},
-  {"es": "San Francisco, la sede más competida", "en": "San Francisco, the most contested location"},
-  {"es": "Real Madrid, el más presente", "en": "Real Madrid, the most present"},
-  {"es": "La competencia vende antes y con más frecuencia", "en": "Competitors sell earlier and more often"}
+  {
+   "es": "Inter sube a $449: volvemos a ser los más baratos",
+   "en": "Inter goes up to $449: we are the cheapest again"
+  },
+  {
+   "es": "Nuestra agencia: 87 anuncios, segunda detrás de Atlético",
+   "en": "Our agency: 87 ads, second only to Atlético"
+  },
+  {
+   "es": "Black Friday: Atlético con 108 anuncios",
+   "en": "Black Friday: Atlético with 108 ads"
+  },
+  {
+   "es": "San Francisco y Seattle, las sedes más disputadas",
+   "en": "San Francisco and Seattle, the most contested locations"
+  }
  ],
  "bloques": [
-  {"titulo": {"es": "Para tener en cuenta", "en": "Worth keeping in mind"},
+  {
+   "titulo": {
+    "es": "Para tener en cuenta",
+    "en": "Worth keeping in mind"
+   },
    "items": [
-    {"es": "En New Jersey, Seattle, Chicago y San Francisco dejamos de ser la opción europea más barata: conviene ver si Inter extiende los $399 después del 15-nov.", "en": "In New Jersey, Seattle, Chicago and San Francisco we are no longer the cheapest European option: it is worth checking whether Inter extends the $399 after Nov 15."},
-    {"es": "Black Friday ya empezó en la competencia (Atlético con 106 anuncios, Barça con un correo de \"$40 off\").", "en": "Black Friday has already started among competitors (Atlético with 106 ads, Barça with a \"$40 off\" email)."},
-    {"es": "Nuestro $429 sigue por debajo de Barça, Bayern, Real Madrid y Man City, que cobran el uniforme aparte.", "en": "Our $429 is still below Barça, Bayern, Real Madrid and Man City, which charge for the uniform separately."}
-   ]}
+    {
+     "es": "En New Jersey, Seattle, Chicago y San Francisco nuestro $429 queda $20 por debajo de Inter hasta el 1-dic: encaja con el último aviso del early-bird.",
+     "en": "In New Jersey, Seattle, Chicago and San Francisco our $429 is $20 below Inter until Dec 1: it fits the last early-bird reminder."
+    },
+    {
+     "es": "Inter y Atlético renovaron anuncios el mismo día con minutos de diferencia y los de Inter aparecen en la búsqueda \"Black Friday\": podría sumarse al Black Friday (sin confirmar).",
+     "en": "Inter and Atlético renewed ads the same day minutes apart, and Inter's show up in a \"Black Friday\" search: it may join Black Friday (unconfirmed)."
+    },
+    {
+     "es": "Barça pasó a \"Early Bird Price II\" ($549–$599) y no mandó más correos después del día 2; solo Nike volvió a escribir.",
+     "en": "Barça moved to \"Early Bird Price II\" ($549–$599) and sent no more emails after day 2; only Nike wrote again."
+    }
+   ]
+  }
  ],
  "url": "https://almacenamiento982-blip.github.io/revision-summer-2027/"
 }
