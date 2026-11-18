@@ -1,12 +1,12 @@
 {
  "etiqueta": {
-  "es": "Edición del 16 nov",
-  "en": "Nov 16 edition"
+  "es": "Edición del 16 nov · revisión 18 nov",
+  "en": "Nov 16 edition · Nov 18 review"
  },
- "actualizado": "2026-11-16T17:01:50Z",
+ "actualizado": "2026-11-18T14:40:29Z",
  "act_txt": {
-  "es": "lun 16 nov, 12:01 p. m.",
-  "en": "Mon, Nov 16, 12:01 PM"
+  "es": "mié 18 nov (revisión de publicidad)",
+  "en": "Wed, Nov 18 (ad review)"
  },
  "prox_txt": {
   "es": "lun 23 nov",
@@ -17,21 +17,21 @@
   "en": "updated manually"
  },
  "resumen": {
-  "es": "Inter terminó su precio de $399 y ahora cobra $449: nuestro $429 vuelve a ser el más bajo entre las marcas europeas hasta el 1-dic. Nuestra agencia duplicó sus anuncios (87) con San Francisco y New Jersey.",
-  "en": "Inter ended its $399 price and now charges $449: our $429 is again the lowest among European brands until Dec 1. Our agency doubled its ads (87) with San Francisco and New Jersey."
+  "es": "Atlético lanzó una tanda de Black Friday (\"hasta $250 de descuento\") y llegó a 138 anuncios; Inter subió de 6 a 16 y Real Madrid-Avanza bajó a 2 (solo invierno). Nuestro $429 sigue siendo el precio más bajo entre las marcas europeas hasta el 1-dic.",
+  "en": "Atlético launched a Black Friday batch (\"save up to $250\") and reached 138 ads; Inter went from 6 to 16 and Real Madrid-Avanza dropped to 2 (winter only). Our $429 is still the lowest price among European brands until Dec 1."
  },
  "tendencias": [
   {
-   "es": "Inter sube a $449: volvemos a ser los más baratos",
-   "en": "Inter goes up to $449: we are the cheapest again"
+   "es": "Black Friday: Atlético con 138 anuncios y hasta $250 de descuento",
+   "en": "Black Friday: Atlético with 138 ads and up to $250 off"
   },
   {
-   "es": "Nuestra agencia: 87 anuncios, segunda detrás de Atlético",
-   "en": "Our agency: 87 ads, second only to Atlético"
+   "es": "Nuestra agencia: 92 anuncios, segunda detrás de Atlético",
+   "en": "Our agency: 92 ads, second only to Atlético"
   },
   {
-   "es": "Black Friday: Atlético con 108 anuncios",
-   "en": "Black Friday: Atlético with 108 ads"
+   "es": "Inter sube a $449 y pasa de 6 a 16 anuncios",
+   "en": "Inter goes up to $449 and from 6 to 16 ads"
   },
   {
    "es": "San Francisco y Seattle, las sedes más disputadas",
@@ -50,8 +50,8 @@
      "en": "In New Jersey, Seattle, Chicago and San Francisco our $429 is $20 below Inter until Dec 1: it fits the last early-bird reminder."
     },
     {
-     "es": "Inter y Atlético renovaron anuncios el mismo día con minutos de diferencia y los de Inter aparecen en la búsqueda \"Black Friday\": podría sumarse al Black Friday (sin confirmar).",
-     "en": "Inter and Atlético renewed ads the same day minutes apart, and Inter's show up in a \"Black Friday\" search: it may join Black Friday (unconfirmed)."
+     "es": "Atlético ya está en Black Friday con \"hasta $250\" y Barça mandó un correo de \"$40 off\": conviene tenerlo presente al definir JUVEBF ($50) y su mensaje.",
+     "en": "Atlético is already running Black Friday with \"up to $250\" and Barça sent a \"$40 off\" email: worth keeping in mind when defining JUVEBF ($50) and its message."
     },
     {
      "es": "Barça pasó a \"Early Bird Price II\" ($549–$599) y no mandó más correos después del día 2; solo Nike volvió a escribir.",
