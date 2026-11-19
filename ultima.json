@@ -1,12 +1,12 @@
 {
  "etiqueta": {
-  "es": "Edición del 16 nov · revisión 18 nov",
-  "en": "Nov 16 edition · Nov 18 review"
+  "es": "Edición del 16 nov · revisión 19 nov",
+  "en": "Nov 16 edition · Nov 19 review"
  },
- "actualizado": "2026-11-18T14:40:29Z",
+ "actualizado": "2026-11-19T15:08:59Z",
  "act_txt": {
-  "es": "mié 18 nov (revisión de publicidad)",
-  "en": "Wed, Nov 18 (ad review)"
+  "es": "jue 19 nov (revisión de publicidad y correos)",
+  "en": "Thu, Nov 19 (ad and email review)"
  },
  "prox_txt": {
   "es": "lun 23 nov",
@@ -17,21 +17,21 @@
   "en": "updated manually"
  },
  "resumen": {
-  "es": "Atlético lanzó una tanda de Black Friday (\"hasta $250 de descuento\") y llegó a 138 anuncios; Inter subió de 6 a 16 y Real Madrid-Avanza bajó a 2 (solo invierno). Nuestro $429 sigue siendo el precio más bajo entre las marcas europeas hasta el 1-dic.",
-  "en": "Atlético launched a Black Friday batch (\"save up to $250\") and reached 138 ads; Inter went from 6 to 16 and Real Madrid-Avanza dropped to 2 (winter only). Our $429 is still the lowest price among European brands until Dec 1."
+  "es": "Real Madrid-Avanza volvió a anunciar sus camps de verano por ciudad (de 2 a 49 anuncios) y Barça subió su oferta de Black Friday a \"$60 off\" por correo. Atlético sigue primero con 142 anuncios (\"hasta $250 de descuento\"). Nuestro $429 sigue siendo el precio más bajo entre las marcas europeas hasta el 1-dic.",
+  "en": "Real Madrid-Avanza is advertising its summer camps by city again (from 2 to 49 ads) and Barça raised its Black Friday offer to \"$60 off\" by email. Atlético is still first with 142 ads (\"save up to $250\"). Our $429 is still the lowest price among European brands until Dec 1."
  },
  "tendencias": [
   {
-   "es": "Black Friday: Atlético con 138 anuncios y hasta $250 de descuento",
-   "en": "Black Friday: Atlético with 138 ads and up to $250 off"
+   "es": "Black Friday: Atlético con 142 anuncios y hasta $250; Barça con \"$60 off\" por correo",
+   "en": "Black Friday: Atlético with 142 ads and up to $250; Barça with \"$60 off\" by email"
   },
   {
-   "es": "Nuestra agencia: 92 anuncios, segunda detrás de Atlético",
-   "en": "Our agency: 92 ads, second only to Atlético"
+   "es": "Real Madrid-Avanza vuelve con 49 anuncios de verano por ciudad",
+   "en": "Real Madrid-Avanza is back with 49 summer ads by city"
   },
   {
-   "es": "Inter sube a $449 y pasa de 6 a 16 anuncios",
-   "en": "Inter goes up to $449 and from 6 to 16 ads"
+   "es": "Nuestra agencia: 91 anuncios, segunda detrás de Atlético",
+   "en": "Our agency: 91 ads, second only to Atlético"
   },
   {
    "es": "San Francisco y Seattle, las sedes más disputadas",
@@ -50,8 +50,8 @@
      "en": "In New Jersey, Seattle, Chicago and San Francisco our $429 is $20 below Inter until Dec 1: it fits the last early-bird reminder."
     },
     {
-     "es": "Atlético ya está en Black Friday con \"hasta $250\" y Barça mandó un correo de \"$40 off\": conviene tenerlo presente al definir JUVEBF ($50) y su mensaje.",
-     "en": "Atlético is already running Black Friday with \"up to $250\" and Barça sent a \"$40 off\" email: worth keeping in mind when defining JUVEBF ($50) and its message."
+     "es": "Atlético ya está en Black Friday con \"hasta $250\" y Barça subió su correo de \"$40 off\" a \"$60 off\": conviene tenerlo presente al definir el mensaje de JUVEBF ($50).",
+     "en": "Atlético is already running Black Friday with \"up to $250\" and Barça raised its email from \"$40 off\" to \"$60 off\": worth keeping in mind when defining the JUVEBF ($50) message."
     },
     {
      "es": "Barça pasó a \"Early Bird Price II\" ($549–$599) y no mandó más correos después del día 2; solo Nike volvió a escribir.",
