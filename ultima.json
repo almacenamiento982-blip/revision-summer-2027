@@ -1,41 +1,41 @@
 {
  "etiqueta": {
-  "es": "Edición del 16 nov · revisión 22 nov",
-  "en": "Nov 16 edition · Nov 22 review"
+  "es": "Edición del 23 nov",
+  "en": "Nov 23 edition"
  },
- "actualizado": "2026-11-22T14:24:19Z",
+ "actualizado": "2026-11-23T15:14:55Z",
  "act_txt": {
-  "es": "dom 22 nov (revisión de correos)",
-  "en": "Sun, Nov 22 (email review)"
+  "es": "lun 23 nov, 10:14 a. m.",
+  "en": "Mon, Nov 23, 10:14 AM"
  },
  "prox_txt": {
-  "es": "lun 23 nov",
-  "en": "Mon, Nov 23"
+  "es": "lun 30 nov",
+  "en": "Mon, Nov 30"
  },
  "prox_nota": {
   "es": "se actualiza a mano",
   "en": "updated manually"
  },
  "resumen": {
-  "es": "Barça llevó su Black Friday a los anuncios (de 37 a 48, código \"FCBBFRIDAY26: $60 OFF\") y Real Madrid-Avanza lanzó \"Black Friday: Up to $130 OFF\". Atlético sigue primero con 142 anuncios (\"hasta $250 de descuento\"). Nuestro $429 sigue siendo el precio más bajo entre las marcas europeas hasta el 1-dic.",
-  "en": "Barça took its Black Friday to ads (from 37 to 48, code \"FCBBFRIDAY26: $60 OFF\") and Real Madrid-Avanza launched \"Black Friday: Up to $130 OFF\". Atlético is still first with 142 ads (\"save up to $250\"). Our $429 is still the lowest price among European brands until Dec 1."
+  "es": "Black Friday en casi toda la competencia: Barça ($60 con código), Real Madrid ($50 extra en Akinji y hasta $130 en Avanza) y Man City ($60). Aun con esos códigos, nuestro $429 sigue siendo el precio europeo más bajo hasta el 1-dic; Inter se queda en $449 sin Black Friday.",
+  "en": "Black Friday across almost all competitors: Barça ($60 with a code), Real Madrid ($50 extra at Akinji and up to $130 at Avanza) and Man City ($60). Even with those codes, our $429 is still the lowest European price until Dec 1; Inter stays at $449 with no Black Friday."
  },
  "tendencias": [
   {
-   "es": "Black Friday: Atlético hasta $250, Real Madrid-Avanza hasta $130 y Barça $60 con código",
-   "en": "Black Friday: Atlético up to $250, Real Madrid-Avanza up to $130 and Barça $60 with a code"
+   "es": "Black Friday: Barça −$60, Real Madrid −$50/−$130, Man City −$60",
+   "en": "Black Friday: Barça −$60, Real Madrid −$50/−$130, Man City −$60"
   },
   {
-   "es": "Barça sube de 37 a 48 anuncios",
-   "en": "Barça goes from 37 to 48 ads"
+   "es": "Seguimos con el precio europeo más bajo ($429)",
+   "en": "We still have the lowest European price ($429)"
   },
   {
-   "es": "Nuestra agencia: 91 anuncios, segunda detrás de Atlético",
-   "en": "Our agency: 91 ads, second only to Atlético"
+   "es": "Atlético salta a 231 anuncios; nuestra agencia, segunda con 88",
+   "en": "Atlético jumps to 231 ads; our agency second with 88"
   },
   {
-   "es": "San Francisco y Seattle, las sedes más disputadas",
-   "en": "San Francisco and Seattle, the most contested locations"
+   "es": "Inter se mantiene en $449, sin Black Friday",
+   "en": "Inter stays at $449, no Black Friday"
   }
  ],
  "bloques": [
@@ -46,16 +46,16 @@
    },
    "items": [
     {
-     "es": "En New Jersey, Seattle, Chicago y San Francisco nuestro $429 queda $20 por debajo de Inter hasta el 1-dic: encaja con el último aviso del early-bird.",
-     "en": "In New Jersey, Seattle, Chicago and San Francisco our $429 is $20 below Inter until Dec 1: it fits the last early-bird reminder."
+     "es": "Con los códigos, Barça queda en $489 y Real Madrid-Akinji en $499 (hasta el 30-nov): siguen por encima de nuestro $429, que vence el 1-dic.",
+     "en": "With the codes, Barça is at $489 and Real Madrid-Akinji at $499 (until Nov 30): still above our $429, which ends Dec 1."
     },
     {
-     "es": "Atlético ofrece \"hasta $250\", Real Madrid-Avanza \"hasta $130\" y Barça \"$60\" con código en sus anuncios: conviene tenerlo presente para el mensaje de JUVEBF ($50, del 27 al 30 de noviembre).",
-     "en": "Atlético offers \"up to $250\", Real Madrid-Avanza \"up to $130\" and Barça \"$60\" with a code in its ads: worth keeping in mind for the JUVEBF message ($50, Nov 27–30)."
+     "es": "Barça, Real Madrid y Man City llevan el Black Friday al correo y al anuncio; Real Madrid Foundation Camps ya mandó dos correos (20 y 22-nov).",
+     "en": "Barça, Real Madrid and Man City take Black Friday to email and ads; Real Madrid Foundation Camps has already sent two emails (Nov 20 and 22)."
     },
     {
-     "es": "Barça pasó a \"Early Bird Price II\" ($549–$599) y no mandó más correos después del día 2; solo Nike volvió a escribir.",
-     "en": "Barça moved to \"Early Bird Price II\" ($549–$599) and sent no more emails after day 2; only Nike wrote again."
+     "es": "En Instagram publicamos 1,6 veces por semana, frente a 4,2 de Barça y 6,8 de Real Madrid-Avanza, con una interacción parecida (0,42 %).",
+     "en": "On Instagram we post 1.6 times a week, versus 4.2 for Barça and 6.8 for Real Madrid-Avanza, with similar engagement (0.42%)."
     }
    ]
   }
